@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>NET48;net8.0-windows</TargetFrameworks>
+	  <UseWPF>true</UseWPF>
+	  <AssemblyVersion>1.4.0.0</AssemblyVersion>
+	  <FileVersion>1.4.0.0</FileVersion>
+	  <Version>1.4.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ILicense2\ILicense2.csproj" />
+  </ItemGroup>
+</Project>
